@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********--> 
+
+<component name="MainScene" extends="Scene" initialFocus="LoginButtonGroup">
+    <!-- main handler -->
+    <script type="text/brightscript" uri="pkg:/components/screens/MainScene/MainScene.brs" />
+    
+    <children>
+
+        <ButtonGroup 
+            id="LoginButtonGroup" 
+            visible="true"/>
+
+        <UsernameScene
+            id="UsernameScene"
+            visible="false"/>
+
+    </children>
+</component>

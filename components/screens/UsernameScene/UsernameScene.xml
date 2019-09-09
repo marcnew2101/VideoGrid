@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<!--********** Copyright 2016 Roku Corp.  All Rights Reserved. **********--> 
+
+<component name="UsernameScene" extends="Group" initialFocus="UsernameKeyboard">
+
+    <script type="text/brightscript" uri="pkg:/components/screens/UsernameScene/UsernameScene.brs" />
+    
+    <children>
+
+        <Group id="UsernameGroup">
+
+            <Label id="UsernameLabel" />
+
+            <Keyboard id="UsernameKeyboard" />
+
+            <ButtonGroup id="UsernameButtonGroup" />
+
+        </Group>
+
+        <PasswordScene
+            id="PasswordScene"
+            visible="false"/>
+
+    </children>
+</component>
